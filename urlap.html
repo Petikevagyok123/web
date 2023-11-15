@@ -6,14 +6,41 @@
     <title>Document</title>
 </head>
 <body>
-    <h2>Pizza Rendelés</h2>
-    <form>
-        <label for="fname">First Name:</label><br>
-        <input type="text" id="fname" name="fname" value=""><br>
-        <label for="lname">Last Name:</label><br>
-        <input type="text" id="lname" name="lname">
-        <label for="telefon">Telefon</label><br>
-        <input type="number" name="telefon" id="telefon" value="123">
+    <h2>Peti Boltja</h2>
+    <form action>
+        <fieldset>
+            <legend>Rendelés</legend>
+            <br>
+            <input type="text" placeholder="Add meg a neved">
+            <br>
+            <input type="tel" name="tel" id="tel" placeholder="Telefonszám">
+            <br>
+            <br>
+            <input type="email" name="nev" id="mail" placeholder="Email">
+            <br>
+            <h4>Add meg a nemed</h4>
+            <input type="radio" name="nem" id="fiu">
+            <label for="fiu">Fiú</label>
+            <input type="radio" name="nem" id="lany">
+            <label for="lany">Lány</label>
+        </fieldset>
+        <fieldset>
+            <legend>Kenyér</legend>
+            <input type="radio" name="barmi" id="p1">
+            <label for="p1">0.25kg</label>
+            <input type="radio" name="barmi" id="p2">
+            <label for="p2">0.5kg</label>
+            <input type="radio" name="barmi" id="p3">
+            <label for="p3">0.75</label>
+            <input type="radio" name="barmi" id="p4">
+            <label for="p4">1kg</label>
+            <input type="radio" name="barmi" id="p5">
+            <label for="p5">1.25kg</label>
+            <br>
+            <label for="db">Mennyi legyen?</label>
+            <input type="number" name="db" id="db" value="1" min="1" max="5" style="db">
+        </fieldset>
+        
     </form>
 </body>
 </html>
