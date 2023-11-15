@@ -40,7 +40,44 @@
             <label for="db">Mennyi legyen?</label>
             <input type="number" name="db" id="db" value="1" min="1" max="5" style="db">
         </fieldset>
-        
+        <fieldset>
+            <legend>Paprika Erőssége</legend>
+            <input type="radio" name="paprika" id="pap1">
+            <label for="pap1">Gyenge</label>
+            <br>
+            <input type="radio" name="paprika" id="pap2">
+            <label for="pap2">Közepes</label>
+            <br>
+            <input type="radio" name="paprika" id="pap3">
+            <label for="pap3">Erős</label>
+            <input type="range" name="erosseg" id="eros">
+        </fieldset>
+        <fieldset>
+            <legend>Sajt</legend>
+            <input type="checkbox" name="sajt" id="s1">
+            <label for="s1">Pálpusztai</label>
+            <br>
+            <input type="checkbox" name="sajt" id="s2">
+            <label for="s2">Trapista</label>
+            <br>
+            <input type="checkbox" name="sajt" id="s3">
+            <label for="s3">Cheddar</label>
+        </fieldset>
+        <fieldset>
+            <legend>Rendelés Ideje</legend>
+            <label for="ido">Kiszálítás</label>
+            <br>
+            <input type="date" name="ido" id="ido">
+            <br>
+            <input type="date" name="ido" id="ido2">
+        </fieldset>
+        <br>
+        <input type="checkbox" name="felh" id="felh" checked>
+        <label for="felh">Felhasználói feltételek elfogadása!</label>
+        <br>
+        <br>
+        <input type="button" value="Rendelés!">
+        <input type="reset" value="Vissza">
     </form>
 </body>
 </html>
