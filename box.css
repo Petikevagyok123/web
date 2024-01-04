@@ -2,16 +2,14 @@
     height: 100px;
     width: 100px;
     background-color: red;
-    float: left;
 }
 .box2{
     height: 100px;
     width: 100px;
     background-color: blue;
-    float: right;
 }
 .box3{
     height: 100px;
-    width: 250px;
+    width: 100px;
     background-color: yellow;
 }
